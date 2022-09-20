@@ -1,0 +1,291 @@
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.videopreview{
+   object-fit: contain;
+   width: 300px;
+    
+}
+
+
+
+.videoname
+{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    width: 250px;
+    color: white;
+    margin-top: 3px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+.channelpic
+{
+    border-radius: 100%;
+    width: 40px;
+}
+
+.videochannel
+{
+    
+ font-size: 12px;
+    color: #AAAAAA;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.videoinfo
+{
+    font-size: 12px;
+    color: #AAAAAA;
+    margin-top: 0px;
+}
+
+.container
+{
+    display: inline-block;  
+    position: relative; 
+    
+}
+
+.container3
+{
+    vertical-align: 65px;
+}
+
+.container4
+{
+    vertical-align: top;
+}
+
+.container5{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
+.container6{
+    display: grid;
+    padding-left: 250px;
+    padding-top: 20px;
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container6 :hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.body{
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #181818;
+}
+
+.header
+{ display: flex;
+    flex-direction: row;
+    z-index: 100;
+    margin-top: 0px;
+    height: 56px;
+    background-color: #212121;
+    opacity: 98%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   
+}
+
+.leftheader
+{
+    margin-left: 30px;
+width: 250px;
+display: flex;
+align-items: center;
+
+}
+.leftheader :hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.hamburgermenu
+{
+width: 25px;
+
+
+display: inline-block;
+}
+.logo{
+    margin-left: 25px;
+    padding-right: 0px;
+    border-right: 0px;
+width: 40px;
+display: inline-block;
+
+
+
+}
+.logocaption{
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Oswald', sans-serif;
+    color: white;
+   
+}
+.middleheader
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-left: 300px;
+}
+
+.searchbar{
+    display: inline-block;
+   flex: 1;
+  
+    background-color: #0f0d0d;
+    border-color: #0f0d0d;
+    width: 500px;
+    height: 32px;
+    font-size: 15px;
+   
+    
+}
+
+
+
+.searchlogo{
+    width: 60px;
+    height: 34px;
+    vertical-align: -34px;
+border-width: 2px;
+   border-style: solid;
+
+}
+.middleheader :hover
+{opacity: 0.6;
+    cursor: pointer;
+}
+
+.voice{
+    padding-left: 20px;
+   width: 20x;
+   height: 20px;
+   margin-right: 250px;
+
+   
+}
+.rightheader
+{
+   
+width: 450px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+position: relative;
+}
+.upload{
+    height: 35  px;
+    width: 50px;
+    
+}
+.bell{
+    height: 35px;
+    width: 50px;
+    
+}
+
+.account{
+    width: 35px ;
+    border-radius: 20px;
+}
+
+.rightheader :hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.suggestionbox
+{ 
+    margin-left: 250px;
+   padding-top: 80px;
+    height: 48px;
+    background-color: #212121,;
+    opacity: 98%;
+    border-width: 2px;
+    
+    
+   
+}
+
+
+.suggestionbutton
+{
+height: 45px;
+background-color: #212121;
+color: white;
+width: fit-content;
+border-radius: 25px;
+border-color: #212121;
+border-style: solid;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: medium;
+}
+
+.suggestionbox :hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.sidebar
+{
+    position: fixed;
+    top: 56px;
+    left: 0px;
+    right: 1300px;
+    bottom: 0px;
+    background-color: #0f0d0d;
+    display: grid;
+    grid-template-columns: 50px;
+}
+
+.videotime{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+    
+}
+
+.sidebarrow{
+    width: 225px;
+    height: 45px;
+    display: inline-block;
+}
+
+.sidebarbox{
+    border-width: 0px;
+    width: 225px;
+    border-style: solid;
+}
+
+.sidebarbox :hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+}
